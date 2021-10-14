@@ -3,10 +3,10 @@ var ParseServer = require('parse-server').ParseServer;
 // var S3Adapter = require('parse-server').S3Adapter;
 var path = require('path');
 
-//var databaseUri = process.env.DATABASE_URI || process.env.MONGODB_URI;
+var databaseUri = process.env.DATABASE_URI || process.env.MONGODB_URI;
 //var databaseUri = 'mongodb://newuser:newuser@cluster0.hrg93.mongodb.net/test';
 
-var databaseUri = 'mongodb://newuser:<password>@cluster0-shard-00-00.hrg93.mongodb.net:27017,cluster0-shard-00-01.hrg93.mongodb.net:27017,cluster0-shard-00-02.hrg93.mongodb.net:27017/test?replicaSet=atlas-sqj2zk-shard-0&ssl=true&authSource=admin';
+//var databaseUri = 'mongodb://newuser:<password>@cluster0-shard-00-00.hrg93.mongodb.net:27017,cluster0-shard-00-01.hrg93.mongodb.net:27017,cluster0-shard-00-02.hrg93.mongodb.net:27017/test?replicaSet=atlas-sqj2zk-shard-0&ssl=true&authSource=admin';
 
 if (!databaseUri) {
 	console.log('DATABASE_URI not specified, falling back to localhost.');
