@@ -6,7 +6,7 @@ var path = require('path');
 //var databaseUri = process.env.DATABASE_URI || process.env.MONGODB_URI;
 //var databaseUri = 'mongodb://newuser:newuser@cluster0.hrg93.mongodb.net/test';
 
-var databaseUri = 'mongodb://newuser:newuser@cluster0-shard-00-00.hrg93.mongodb.net:27017,cluster0-shard-00-01.hrg93.mongodb.net:27017,cluster0-shard-00-02.hrg93.mongodb.net:27017/test?ssl=true&authSource=admin';
+var databaseUri = 'mongodb+srv://newuser:newuser@cluster0.hrg93.mongodb.net/test';
 
 if (!databaseUri) {
 	console.log('DATABASE_URI not specified, falling back to localhost.');
