@@ -4,7 +4,9 @@ var ParseServer = require('parse-server').ParseServer;
 var path = require('path');
 
 //var databaseUri = process.env.DATABASE_URI || process.env.MONGODB_URI;
-var databaseUri = 'mongodb://uuolbqriu8kmc6g4er29:b6J3xk3uPNPPYnnptE5n@b4fn2idsgr5uwlk-mongodb.services.clever-cloud.com:27017/b4fn2idsgr5uwlk';
+var databaseUri = 'mongodb+srv://newuser:newuser@cluster0.hrg93.mongodb.net/test
+
+';
 
 if (!databaseUri) {
 	console.log('DATABASE_URI not specified, falling back to localhost.');
