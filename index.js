@@ -3,8 +3,8 @@ var ParseServer = require('parse-server').ParseServer;
 // var S3Adapter = require('parse-server').S3Adapter;
 var path = require('path');
 
-var databaseUri = process.env.DATABASE_URI || process.env.MONGODB_URI;
-//var databaseUri = 'mongodb://newuser:newuser@cluster0.hrg93.mongodb.net/test';
+//var databaseUri = process.env.DATABASE_URI || process.env.MONGODB_URI;
+var databaseUri = 'postgres://umhhoawasdwvpy:1bdca749da05634297a38fcaf59c017664fe6a99f7ef60df7a65a27ac75ee386@ec2-3-87-180-131.compute-1.amazonaws.com:5432/dfjj47erdng5ag';
 
 //var databaseUri = 'mongodb://newuser:<password>@cluster0-shard-00-00.hrg93.mongodb.net:27017,cluster0-shard-00-01.hrg93.mongodb.net:27017,cluster0-shard-00-02.hrg93.mongodb.net:27017/test?replicaSet=atlas-sqj2zk-shard-0&ssl=true&authSource=admin';
 
